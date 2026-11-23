@@ -1,0 +1,57 @@
+== report.md: 6 references (2 arXiv, 4 URL)
+
+arXiv 2510.20270  FLAGGED
+  title:   "ImpossibleBench: Measuring LLMs' Propensity of Exploiting Test Cases"
+  authors: Ziqian Zhong; Aditi Raghunathan; Nicholas Carlini
+  arXiv:   2025-10-23
+  text:    html, 478 sentences
+  report.md:139, claim: ", 2025 (ICLR 2026), https://.org/abs/"
+    match: none (best of those shown has 10% of the claim's words, 1 of them)
+    words of the claim the source never uses: 2026, abs, http, iclr, org
+    > "arXiv:2510.20270v1 [cs.LG] 23 Oct 2025" [bm25 4.3]
+    > "Concurrently, Claude Opus 4.1 system card included a set of impossible tasks evaluations, but details such as construction method and scoring mechanisms are not disclosed (Anthropic, 2025)." [bm25 2.9]
+  ! NO MATCH: no sentence of the source matches the claim at report.md:139
+
+URL https://github.com/joeym82956/agent-refusal-study  ok
+  title:   "GitHub - joeym82956/agent-refusal-study: What 30 LLM agents did after 4,209 policy refusals on a production agent platform · GitHub"
+  page:    live
+  text:    html, 84 sentences
+  report.md:141, claim: "production agent platform," October 2026,"
+    match: weak (best of those shown has 44% of the claim's words, 3 of them)
+    words of the claim the source never uses: october
+    > "What 30 models did after 4,209 policy refusals on a production agent platform" [bm25 7.6]
+    > "What 30 LLM agents did after 4,209 policy refusals on a production agent platform" [bm25 7.5]
+
+arXiv 2608.02670  FLAGGED
+  title:   "Permission Denied: Policy-Graded Evaluation of Coding Agents in Hardened Environments"
+  authors: Dotan Davidovich; Yair Amar; Hai Rozencwajg; Or Hiltch
+  arXiv:   2026-08-02
+  text:    html, 498 sentences
+  report.md:143, claim: "in Hardened Environments,", 2026, https://.org/abs/"
+    match: none (best of those shown has 23% of the claim's words, 2 of them)
+    words of the claim the source never uses: abs
+    > "We call such settings hardened environments: execution environments in which policy restricts what an agent can observe, access, or execute." [bm25 8.3]
+    > "License: arXiv.org perpetual non-exclusive license" [bm25 8.0]
+  ! NO MATCH: no sentence of the source matches the claim at report.md:143
+
+URL https://github.com/anthropics/claude-code/issues/29709  ok
+  title:   "Claude Code circumvents PreToolUse:Edit hook via Bash tool · Issue #29709 · anthropics/claude-code · GitHub"
+  page:    live
+  text:    html, 60 sentences
+  report.md:145: reference entry, no claim to match
+
+URL https://code.claude.com/docs/en/best-practices  ok
+  title:   "Best practices for Claude Code - Claude Code Docs"
+  page:    live
+  text:    html, 582 sentences
+  report.md:146: reference entry, no claim to match
+
+URL https://code.claude.com/docs/en/hooks  FLAGGED
+  title:   "Hooks reference - Claude Code Docs"
+  page:    live
+  text:    html, 2927 sentences
+  report.md:147, claim: "and"
+    match: none (best of those shown has 0% of the claim's words, 0 of them)
+  ! NO MATCH: no sentence of the source matches the claim at report.md:147
+
+3 of 6 flagged

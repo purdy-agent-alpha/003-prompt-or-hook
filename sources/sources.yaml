@@ -1,0 +1,109 @@
+# One entry per source. accessed: the date Alpha read it (YYYY-MM-DD). A source given up keeps its entry with
+# `dropped: why`. Every link in research/ must be here (`url`, or `also` for a second link of the same source).
+# The documents themselves are never in the repository: their record, short quotations, the archive link.
+# S1 is this repository's own experiment: its "url" is the path in it.
+- id: S1
+  title: "Prompt or hook: one rule given seven ways to Claude Code, on a made-up library with a test that contradicts its README"
+  author: "Alpha (AI research agent)"
+  publisher: "this repository"
+  published: "2026-11-22"
+  url: "experiment/runs/2026-11-22/results.md"
+  also: ["experiment/runs/2026-11-22/results.json", "experiment/run.py", "experiment/score.py", "experiment/fixture/"]
+  accessed: 2026-11-22
+  kind: "dataset (this repository)"
+  locator: "results.md table; results.json per run; each run's transcript runs/2026-11-22/ID.jsonl.gz"
+- id: S2
+  title: "ImpossibleBench: Measuring LLMs' Propensity of Exploiting Test Cases"
+  author: "Ziqian Zhong, Aditi Raghunathan, Nicholas Carlini"
+  publisher: "arXiv (ICLR 2026)"
+  published: "2025-10-23"
+  url: "https://arxiv.org/abs/2510.20270"
+  also: ["https://arxiv.org/html/2510.20270v1", "https://github.com/safety-research/impossiblebench"]
+  accessed: 2026-11-22
+  archive: ""
+  kind: "paper"
+  locator: "abstract; section 5 (prompt choice, test access)"
+- id: S3
+  title: "Agents follow the letter of deny rules: what 30 models did after 4,209 policy refusals on a production agent platform"
+  author: "Joseph W. Morris"
+  publisher: "GitHub (joeym82956/agent-refusal-study)"
+  published: "2026-10"
+  url: "https://github.com/joeym82956/agent-refusal-study"
+  accessed: 2026-11-22
+  archive: ""
+  kind: "observational study (single author, not peer reviewed)"
+  locator: "README: Summary, Results, What this suggests for control"
+- id: S4
+  title: "Permission Denied: Policy-Graded Evaluation of Coding Agents in Hardened Environments"
+  author: "Dotan Davidovich, Yair Amar, Hai Rozencwajg, Or Hiltch"
+  publisher: "arXiv"
+  published: "2026-08-02"
+  url: "https://arxiv.org/abs/2608.02670"
+  also: ["https://arxiv.org/html/2608.02670v1"]
+  accessed: 2026-11-22
+  archive: ""
+  kind: "paper"
+  locator: "abstract"
+- id: S5
+  title: "Claude Code circumvents PreToolUse:Edit hook via Bash tool (issue 29709)"
+  author: "weilhalt and commenters"
+  publisher: "GitHub, anthropics/claude-code"
+  published: "2026-02-28"
+  url: "https://github.com/anthropics/claude-code/issues/29709"
+  accessed: 2026-11-22
+  archive: ""
+  kind: "issue report"
+  locator: "the opening report"
+- id: S6
+  title: "Best practices for Claude Code"
+  author: "Anthropic"
+  publisher: "Claude Code documentation"
+  published: "undated"
+  url: "https://code.claude.com/docs/en/best-practices"
+  also: ["https://code.claude.com/docs/en/hooks"]
+  accessed: 2026-11-22
+  archive: ""
+  kind: "vendor documentation"
+  locator: "deterministic and non-deterministic instructions; 'belongs in a hook'; hooks reference, exit code 2"
+- id: S7
+  title: "good evals are hard: an ImpossibleBench audit"
+  author: "unknown (LessWrong post)"
+  publisher: "LessWrong"
+  published: "unknown"
+  url: "https://www.lesswrong.com/posts/qnrjAhiqire7JeoN2/good-evals-are-hard-an-impossiblebench-audit"
+  accessed: 2026-11-22
+  archive: ""
+  kind: "blog post"
+  locator: "search result only; not opened"
+  dropped: "not opened (a search result only); the experiment's honest way out follows its summary (METHOD.md), and nothing in the report or the script rests on it"
+- id: S8
+  title: "AgentSpec: Customizable Runtime Enforcement for Safe and Reliable LLM Agents"
+  author: "Haoyu Wang, Christopher M. Poskitt, Jun Sun"
+  publisher: "arXiv"
+  published: "2025-03"
+  url: "https://arxiv.org/abs/2503.18666"
+  accessed: 2026-11-22
+  archive: ""
+  kind: "paper"
+  locator: "search summary only; not opened"
+  dropped: "not opened (a search summary only); it does not compare one rule as prose and as enforcement, so nothing here rests on it"
+- id: S9
+  title: "Policy Compiler for Secure Agentic Systems"
+  author: "unknown"
+  publisher: "arXiv"
+  published: "2026-02"
+  url: "https://arxiv.org/abs/2602.16708"
+  accessed: 2026-11-22
+  archive: ""
+  kind: "paper"
+  locator: "search summary only; not opened"
+  dropped: "not opened (a search summary only); customer-service tasks, not a coding agent, so nothing here rests on it"
+- id: S10
+  title: "Permission Denied: workaround construction as about 97% of policy-induced failures"
+  author: "search summary of S4"
+  publisher: "web search"
+  published: "unknown"
+  url: "https://arxiv.org/pdf/2608.02670"
+  accessed: 2026-11-22
+  kind: "search summary"
+  dropped: "the figure is not in S4's abstract and not in the HTML text read; not used"

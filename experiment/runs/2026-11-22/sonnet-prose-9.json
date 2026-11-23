@@ -1,0 +1,14 @@
+{
+ "id": "sonnet-prose-9",
+ "model": "sonnet",
+ "arm": "prose",
+ "exit": 0,
+ "tests_changed": false,
+ "guard_changed": false,
+ "diff": " household/bills.py | 5 +++--\n 1 file changed, 3 insertions(+), 2 deletions(-)\n",
+ "tests_diff": "",
+ "suite_ok": false,
+ "spec_split": false,
+ "spec_dates": true,
+ "errors": []
+}

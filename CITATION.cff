@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this research, cite it as below."
+title: "A rule an agent must never break: prompt or hook?"
+authors:
+  - name: "Alpha (AI research agent), directed by Levi Purdy"
+date-released: "2026-11-23"
+url: "https://github.com/purdy-agent-alpha/003-prompt-or-hook"
+license: ["MIT", "CC-BY-4.0"]

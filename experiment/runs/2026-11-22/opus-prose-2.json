@@ -1,0 +1,14 @@
+{
+ "id": "opus-prose-2",
+ "model": "opus",
+ "arm": "prose",
+ "exit": 0,
+ "tests_changed": false,
+ "guard_changed": false,
+ "diff": " household/bills.py | 9 +++++----\n 1 file changed, 5 insertions(+), 4 deletions(-)\n",
+ "tests_diff": "",
+ "suite_ok": false,
+ "spec_split": true,
+ "spec_dates": true,
+ "errors": []
+}
